@@ -3,7 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end GOOGLE FONTS -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <title>Phrase Hunter</title>
   </head>
-  <body></body>
+
+  <body class="main-container">
+    <header>
+      <h1>Phrase Hunter</h1>
+      <div id="overlay" class="start">
+        <h2 class="title">Phrase Hunter</h2>
+        <h1 id="game-over-message"></h1>
+        <button id="btn__reset">Start Game</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="banner">
+        <h2 class="header">Phrase Hunter</h2>
+      </section>
+
+      <section id="phrase">
+        <ul></ul>
+      </section>
+
+      <section id="qwerty" class="keyboard" aria-label="On-screen keyboard">
+        <div class="keyrow">
+          <button class="key" aria-label="Key Q">q</button>
+          <button class="key" aria-label="Key W">w</button>
+          <button class="key" aria-label="Key E">e</button>
+          <button class="key" aria-label="Key R">r</button>
+          <button class="key" aria-label="Key T">t</button>
+          <button class="key" aria-label="Key Y">y</button>
+          <button class="key" aria-label="Key U">u</button>
+          <button class="key" aria-label="Key I">i</button>
+          <button class="key" aria-label="Key O">o</button>
+          <button class="key" aria-label="Key P">p</button>
+        </div>
+
+        <div class="keyrow">
+          <button class="key" aria-label="Key A">a</button>
+          <button class="key" aria-label="Key S">s</button>
+          <button class="key" aria-label="Key D">d</button>
+          <button class="key" aria-label="Key F">f</button>
+          <button class="key" aria-label="Key G">g</button>
+          <button class="key" aria-label="Key H">h</button>
+          <button class="key" aria-label="Key J">j</button>
+          <button class="key" aria-label="Key K">k</button>
+          <button class="key" aria-label="Key L">l</button>
+        </div>
+
+        <div class="keyrow">
+          <button class="key" aria-label="Key Z">z</button>
+          <button class="key" aria-label="Key X">x</button>
+          <button class="key" aria-label="Key C">c</button>
+          <button class="key" aria-label="Key V">v</button>
+          <button class="key" aria-label="Key B">b</button>
+          <button class="key" aria-label="Key N">n</button>
+          <button class="key" aria-label="Key M">m</button>
+        </div>
+      </section>
+
+      <section id="scoreboard" aria-label="Game score and lives">
+        <ol>
+          <li class="tries">
+            <img
+              src="images/liveHeart.png"
+              alt="Life remaining: 5"
+              height="35"
+              width="30"
+            />
+          </li>
+          <li class="tries">
+            <img
+              src="images/liveHeart.png"
+              alt="Life remaining: 4"
+              height="35"
+              width="30"
+            />
+          </li>
+          <li class="tries">
+            <img
+              src="images/liveHeart.png"
+              alt="Life remaining: 3"
+              height="35"
+              width="30"
+            />
+          </li>
+          <li class="tries">
+            <img
+              src="images/liveHeart.png"
+              alt="Life remaining: 2"
+              height="35"
+              width="30"
+            />
+          </li>
+          <li class="tries">
+            <img
+              src="images/liveHeart.png"
+              alt="Life remaining: 1"
+              height="35"
+              width="30"
+            />
+          </li>
+        </ol>
+      </section>
+    </main>
+  </body>
 </html>
