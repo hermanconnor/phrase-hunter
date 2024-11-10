@@ -26,7 +26,7 @@ class Game {
     const overlay = document.getElementById('overlay');
     overlay.style.display = 'none';
     this.activePhrase = this.getRandomPhrase();
-    this.activePhrase.createPhraseElement();
+    this.activePhrase.createPhraseElements();
   }
 
   handleInteraction(button) {
