@@ -7,7 +7,6 @@ function main() {
   const onscreenKeyboard = document.getElementById('qwerty');
   const keyboardButtons = document.querySelectorAll('#qwerty button');
   const overlay = document.getElementById('overlay');
-  const message = document.getElementById('game-over-message');
 
   startBtn.addEventListener('click', () => {
     if (game) {
