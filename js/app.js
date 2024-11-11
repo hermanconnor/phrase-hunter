@@ -20,12 +20,17 @@ function main() {
   });
 
   onscreenKeyboard.addEventListener('click', (e) => {
-    if (e.target instanceof HTMLButtonElement && !e.target.disabled) {
+    if (e.target instanceof HTMLButtonElement && !e.target.disabled && game) {
       game.handleInteraction(e.target);
     }
   });
 
   document.addEventListener('keydown', (e) => {
+    // Ensure game is initialized and overlay is hidden
+    if (!game || overlay.style.display !== 'none') {
+      return; // Don't handle the key press if game isn't started or overlay is visible
+    }
+
     const keyPressed = e.key.toLowerCase();
 
     for (const button of keyboardButtons) {
