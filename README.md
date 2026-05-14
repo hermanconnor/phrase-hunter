@@ -4,6 +4,10 @@
 
 This is a simple guessing game built using Object-Oriented Programming (OOP) principles in JavaScript. Players guess letters in a hidden phrase that I've derived from popular action movies. The game tracks player guesses, displays matched letters, and provides a visual representation of remaining lives. This was my 4th project in the [Treehouse](https://teamtreehouse.com/) full stack JavaScript techdegree program, in which we learned object oriented programming with JavaScript.
 
+## 🖥️ Live Demo
+
+You can see this project in action [here](https://hermanconnor.github.io/employee-gallery/)
+
 ## Features
 
 - **Random Phrase Selection**: Each game begins with a randomly selected phrase from a predefined list.
