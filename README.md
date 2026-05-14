@@ -6,7 +6,7 @@ This is a simple guessing game built using Object-Oriented Programming (OOP) pri
 
 ## 🖥️ Live Demo
 
-You can see this project in action [here](https://hermanconnor.github.io/phrase-hunter/){:target="_blank"}
+You can see this project in action [here](https://hermanconnor.github.io/phrase-hunter/)
 
 ## Features
 
